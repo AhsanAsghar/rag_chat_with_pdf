@@ -1,0 +1,26 @@
+# Environment secrets - NEVER commit your real API key
+.env
+.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Vector DB + uploaded files (user data, not project code)
+data/vector_db/*
+!data/vector_db/.gitkeep
+data/uploads/*
+!data/uploads/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
